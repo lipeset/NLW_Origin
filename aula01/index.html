@@ -1,0 +1,72 @@
+<!--
+  O HTML É A ESTRUTURA DA SUA PÁGINA!
+  NUM COMPARATIVO "REAL", O HTML SERIA A ESTRUTURA DE UM PRÉDIO
+  E O ACABAMENTO VEM DEPOIS, COM A UTILIZAÇÃO DE OUTRO RECURSO...
+  RECURSO ESSE CHAMADO DE "CSS"!!
+
+  HTML significa:
+
+  Hypertext - Hiper texto
+  é um texto com links
+
+  Markup - marcação
+  são tags
+
+  Language - linguagem
+  regras de escrita (linguagem, sintaxe)
+
+  -------
+
+  CSS significa:
+
+  Cascading
+  StyleSheets
+  (Folha de estilos em cascata)
+-->
+
+<!-- 
+<!DOCTYPE html> identifica que estamos utilizando html5
+<html> tag raiz, início do html (tag pai; nó)
+  <head> tag conteúdo da tag pai (html), filha, nó filho, irmã das outras tags
+    <title></title> altera a propriedade de nome da aba que fica no navegador
+  </head> fechamento da tag
+  <body> tag conteúdo da tag pai (html), filha, nó filho, irmã das outras tags
+    tags que estão dentro do pai (body) têm como finalidade alterar conteúdo/propriedades
+    dentro da página... podendo ser estilizadas externamentes (css)
+    <h1></h1> altera o texto para grande e negrito
+    <a href=""></a> criação de hiperlink para o endereço que está entre as aspas
+  </body> fechamento da tag
+</html> fechamento da tag
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Exemplo de CSS injetado diretamente no HTML (não recomendado) */
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        display: grid;
+        place-items: center;
+      }
+
+      h1 {
+        font-size: 5.5rem;
+      }
+
+      a {
+        color: lightgray;
+        text-decoration: none;
+      }
+    </style>
+    <title>Felipe Lucas - DoWhile 2021</title>
+  </head>
+  <body>
+    <h1>Felipe Lucas</h1>
+    <a href="https://instagram.com/f_lucas23">@f_lucas23</a>
+  </body>
+</html>
